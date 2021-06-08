@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <body>
+        <style>
+            h1{
+                text-align: center;
+            }
+        </style>
+        <form method="POST" action="" >
+            <h1> Welcome To Hope  </h1> <text-align: center;>
+            <table border="0" align="center" cellpadding="5">
+                <tr>
+                    <td align="right">NAME:</td>
+                    <td><input type="text" name="N" required/> </td>
+                </tr>
+                <tr>
+                    <td align="right">ADDRESS</td>
+                    <td><input type="TEXT" name="A" required/> </td>
+                </tr>
+                <tr>
+                    <td align="right">TRUST REGISTRATION NUMBER</td>
+                    <td><input type="TEXT" name="RN" required/> </td>
+                </tr>
+                <tr>
+                    <td align="right">EMAIL ADDRESS:</td>
+                    <td><input type="email" name="E" required/> </td>
+                </tr>
+                <tr>
+                    <td align="right">PHONE NUMBER</td>
+                    <td><input type="tel" name="T" required/> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"  ><input type="submit" class = "submit_button" value="Register Orphanage" name = "submit"></td>
+                </tr>
+            </table>
+        </form>
+
+
+        <center>
+            <?php
+            echo $error ;
+            //echo "Showing errors";
+
+            ?>
+        </center>
+    </body>
+</html>
+  </body>
+</html>
